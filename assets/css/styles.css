@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  margin: 30px;
+  border: 1px solid #ababab;
+  border-radius: 8px;
+  background-color: #1d3763;
+}
+
+.main-section {
+  width: 100%;
+  height: 100%;
+  flex: 3;
+  padding: 20px;
+  background: #fff;
+  margin-left: 200px;
+  padding-bottom: 60px;
+}
+
+.contacts {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.my-name {
+  cursor: pointer;
+}
+
+.contacts > div {
+  width: 500px;
+  display: flex;
+  margin: 10px 0px;
+}
+
+.contacts > div p {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+i {
+  color: white;
+  padding: 7px;
+  border-radius: 50%;
+  font-size: 13px;
+}
+
+p.intro {
+  font-size: 17px;
+  margin-right: 40px;
+  text-align: justify;
+}
+
+.top-info {
+  padding-bottom: 20px;
+}
+
+.other-info {
+  margin-top: 30px;
+  position: relative;
+}
+
+.other-info::before {
+  content: " ";
+  position: absolute;
+  top: 15px;
+  left: 12px;
+  bottom: 40px;
+  border-left: 1px solid #73777c;
+}
+
+.cards {
+  padding: 10px 35px;
+  margin-left: 13px;
+}
+
+.cards * {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.title {
+  display: flex;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.title i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: -48px;
+  font-size: 16px;
+  padding: 10px;
+  height: 25px;
+  width: 25px;
+  font-size: 15px;
+}
+
+.title h3 {
+  font-size: 24px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  position: absolute;
+  left: -40px;
+}
+
+.sub-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+  position: relative;
+}
+
+ul li {
+  margin-left: 20px;
+}
+
+.timeline {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: absolute;
+  left: -220px;
+  color: white;
+  width: 150px;
+  text-align: end;
+}
+
+.timeline p {
+  margin-bottom: 0;
+}
+
+.ratings {
+  display: flex;
+}
+
+.rating {
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  margin: 0 0 0 4px;
+}
+
+.no-rating {
+  height: 10px;
+  width: 10px;
+  background: #b5b5b5;
+  border-radius: 100%;
+  margin: 0 0 0 4px;
+}
+
+.rating-section {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.rating-title p {
+  font-size: 13px;
+}
+
+.my-name,
+.top-info > p {
+  margin-bottom: 15px;
+}
+
+.emphasize {
+  opacity: 0.9;
+  font-style: italic;
+}
+
+.random-text-color {
+  color: #1d3763;
+}
+
+.random-bg {
+  background: #1d3763;
+}
